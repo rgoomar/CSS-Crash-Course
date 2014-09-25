@@ -34,7 +34,30 @@ If you want to see what I mean by that, I encourage you to go through these:
 [SASS Guide](http://sass-lang.com/guide)
 
 ### [LESS](lesscss.org) Workflow
-COMING SOON
+#### Important Note for ALL listed workflows
+It is good to have one centralized LESS file that has all of the other files imported
+into it. All other files should be named ```*.import.less```.
+
+So, you have one file ```style.less``` that has everything in it.
+```less
+@import 'variables.import.less';
+@import 'mixins.import.less';
+@import 'base.import.less';
+@import 'home.import.less';
+@import 'blog.import.less';
+```
+The reason that it should be this way is so that you can structure the way your CSS outputs.
+The order that CSS is in really does matter. Styles that are instantiated later take precedence
+and can override similar styles from before.
+
+And this is the file that is compiled to CSS at the end. 
+
+#### With Gulp
+
+
+#### With Meteor
+Add in the LESS package
+```meteor add less```
 
 ## Using Design Frameworks
 You always want to be able to follow the [DRY](http://en.wikipedia.org/wiki/Don't_repeat_yourself) principles.
