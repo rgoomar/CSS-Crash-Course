@@ -1,4 +1,4 @@
-# CSS-Examples
+# Crash Course on CSS
 
 Yeah... look through stuff... try it out... make it pretty.
 
@@ -7,7 +7,7 @@ YOU CAN DO IT.
 ## Structuring your HTML
 - Basic Layout (Part 1 & Part 2)
 
-## Basic Examples
+## CSS Examples
 
 
 ## Advanced CSS Examples
@@ -37,4 +37,12 @@ If you want to see what I mean by that, I encourage you to go through these:
 COMING SOON
 
 ## Using Design Frameworks
-Coming Soon
+You always want to be able to follow the [DRY](http://en.wikipedia.org/wiki/Don't_repeat_yourself) principles.
+So, why re-do CSS when you can utilize a framework and speed up your design process. Focus on the
+nicer pieces of your website and what make it unique. Avoid spending time on the base
+css that can be repeated and improved project after project.
+
+There are three primary CSS design frameworks:  
+[Bootstrap](getbootstrap.com) - Most Popular  
+[Foundation](foundation.zurb.com)  
+[Semantic-UI](semantic-ui.com) - Newer, but very nice  
