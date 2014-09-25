@@ -1,4 +1,4 @@
-# Crash Course on CSS
+# Crash Course on CSS & Design
 
 Yeah... look through stuff... try it out... make it pretty.
 
@@ -57,7 +57,7 @@ The reason that it should be this way is so that you can structure the way your 
 The order that CSS is in really does matter. Styles that are instantiated later take precedence
 and can override similar styles from before.
 
-And this is the file that is compiled to CSS at the end.
+And this is the file that is compiled to CSS in the end.
 
 #### With Gulp
 
