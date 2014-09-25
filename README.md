@@ -5,7 +5,7 @@ Yeah... look through stuff... try it out... make it pretty.
 YOU CAN DO IT.
 
 ## Structuring your HTML
-- [ ] Basic Layout (Part 1 & Part 2)
+- [x] Basic Layout (Part 1 & Part 2)
 
 ## CSS Examples
 - [ ] Displays
