@@ -1,0 +1,81 @@
+body {
+  padding: 15px;
+}
+.post-tags {
+  position: relative;
+  right: 24px;
+  margin: 10px;
+}
+.post-tags a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  border-top: 2px solid transparent;
+  margin-left: 20px;
+  margin-top: 5px;
+  display: inline-block;
+  position: relative;
+  background-color: #8cc152;
+  color: #fff;
+  font-size: 12px;
+  padding: 6px 15px;
+  -moz-border-radius-bottomright: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  -webkit-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
+  -ms-transition: 500ms;
+  transition: 500ms;
+}
+.post-tags a:before {
+  content: "";
+  float: left;
+  position: absolute;
+  top: -2px;
+  left: -17px;
+  width: 0;
+  height: 0;
+  border-color: transparent #8cc152 transparent transparent;
+  border-style: solid;
+  border-width: 15px 17px 15px 0px;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
+  -ms-transition: 500ms;
+  transition: 500ms;
+}
+.post-tags a:after {
+  content: "";
+  position: absolute;
+  top: 13px;
+  left: 0;
+  float: left;
+  width: 4px;
+  height: 4px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background: #fff;
+  -moz-box-shadow: -1px -1px 2px #004977;
+  -webkit-box-shadow: -1px -1px 2px #004977;
+  box-shadow: -1px -1px 2px #004977;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
+  -ms-transition: 500ms;
+  transition: 500ms;
+}
+.post-tags a:hover {
+  background-color: #7fb842;
+  border-bottom: 1px solid transparent;
+  border-top: 2px solid transparent;
+}
+.post-tags a:hover:before {
+  border-color: transparent #7fb842 transparent transparent;
+}
+.post-tags a:hover:after {
+  background: #333333;
+}
