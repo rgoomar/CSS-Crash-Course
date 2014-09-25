@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Responsive META tag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Basic Layout Part 2</title>
+  <style>
+    * {
+      border: 1px solid #000;
+    }
+    body {
+      border: none;
+      padding: 10px;
+    }
+    .container {
+      width: 100%;
+      height: 600px;
+      padding: 5px;
+    }
+    .topbar {
+      display: block;
+      height: 60px;
+      width: 100%;
+    }
+    /* Shared Styles */
+    .main {
+      display: block;
+      width: 100%;
+      height: 530px;
+      margin-top: 5px;
+      /* Padding added to avoid having the content on the edges */
+      padding: 5px;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+<!-- Over arching container for the layout -->
+<div class="container">
+  <!-- Top Bar -->
+  <div class="topbar">
+    Stuff here
+  </div>
+  <!-- END Top Bar -->
+  <!-- Main Content -->
+  <div class="main">
+    Even more Stuff
+  </div>
+  <!-- END Content -->
+</div>
+<!-- END the container -->
+</body>
+</html>

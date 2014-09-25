@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic Layout Part 1</title>
+  <style>
+    * {
+      border: 1px solid #000;
+    }
+    body {
+      border: none;
+      padding: 10px;
+    }
+    .container {
+      width: 100%;
+      height: 600px;
+    }
+    .topbar {
+      display: block;
+      height: 60px;
+      width: 100%;
+    }
+    /* Shared Styles */
+    .sidebar, .main  {
+      height: 520px;
+      margin-top: 5px;
+    }
+    .sidebar {
+      display: inline-block;
+      /* Width is purposly not set to 25% here to account for margins */
+      width: 24%;
+      margin-left: 5px;
+    }
+    .main {
+      display: inline-block;
+      /* Width is purposly not set to 75% here to account for margins */
+      width: 74%;
+    }
+  </style>
+</head>
+<body>
+<!-- Over arching container for the layout -->
+<div class="container">
+  <!-- Top Bar -->
+  <div class="topbar">
+    Stuff here
+  </div>
+  <!-- END Top Bar -->
+  <!-- Sidebar -->
+  <div class="sidebar">
+    More Stuff
+  </div>
+  <!-- END Sidebar -->
+  <!-- Main Content -->
+  <div class="main">
+    Even more Stuff
+  </div>
+  <!-- END Content -->
+</div>
+<!-- END the container -->
+</body>
+</html>

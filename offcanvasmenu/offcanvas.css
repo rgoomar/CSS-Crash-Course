@@ -29,7 +29,6 @@
   color: #f2f2f2;
   right: -250px;
   background: #262626;
-  /*border-left: 10px solid #ff0000;*/
 }
 #site-menu h2 {
   font-family: 'Lato', sans-serif;
@@ -67,8 +66,4 @@
   font-weight: bold;
   color: #262626;
   background: #ff0000;
-}
-#site-menu ul li a i {
-  line-height: 48px;
-  padding-left: 10px;
 }
