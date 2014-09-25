@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="offcanvas.css" />
+  </head>
+  <body>
+    <div id="site-wrapper">
+      <button type="button" class="toggle-nav">
+        Toggle Nav Bar
+      </button>
+      Some content
+      <div id="site-menu">
+      <h2 class="text-center toggle-nav">
+
+        <!--<i class="ion-close-round"></i>-->
+      </h2>
+       <ul>
+         <li><a href="#">About</a></li>
+         <li><a href="#">About</a></li>
+         <li><a href="#">About</a></li>
+         <li><a href="#">About</a></li>
+       </ul>
+     </div>
+   </div>
+    <script src="../includes/jquery-2.1.1.min.js"></script>
+    <script>
+      $(function() {
+        $siteWrapper = $('#site-wrapper');
+        $('html').on('click', function(e) {
+          console.log('click body');
+          if ($siteWrapper.hasClass('show-nav')) {
+            $siteWrapper.removeClass('show-nav');
+          }
+        });
+        $('.toggle-nav').on('click', function(e) {
+          console.log('click button');
+          e.preventDefault();
+          e.stopPropagation();
+          if ($siteWrapper.hasClass('show-nav')) {
+            $siteWrapper.removeClass('show-nav');
+          } else {
+            $siteWrapper.addClass('show-nav');
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
