@@ -18,6 +18,8 @@ Also, open up your browser debugger and see how the padding or margin changes th
 There are many different ways to do alignments. You can add in ```float```, ```text-align```, and many more. But, this example focuses on those two for the time being.  
 I encourage you to experiment and try to align your elements in whichever way you like.
 
+Take a look at this very good resource on [floats](http://css-tricks.com/all-about-floats/)
+
 You will notice that ```Box #1``` is now on the right even though it is declared before ```Box #2```. Floats ignore the direct order and go immediately to the far left or right
 of the parent element depending on which float you used.
 
