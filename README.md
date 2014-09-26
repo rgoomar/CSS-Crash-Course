@@ -45,7 +45,7 @@ If you want to see what I mean by that, I encourage you to go through these:
 ### [LESS](http://lesscss.org) Workflow
 #### Important Note for ALL listed workflows
 It is good to have one centralized LESS file that has all of the other files imported
-into it. All other files should be named ```*.import.less```.
+into it. All other files should be named ```*.import.less``` (not required).
 
 So, you have one file ```style.less``` that has everything in it.
 ```less
