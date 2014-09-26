@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alignments</title>
+  <style>
+    body {
+      border: none;
+      padding: 10px;
+    }
+    .container {
+      min-height: 600px;
+      background: #333;
+      padding: 10px;
+    }
+    .main {
+      padding: 5px;
+    }
+    .box {
+      display: inline-block;
+      background: #3498DB;
+      height: 250px;
+      width: 250px;
+      color: #fff;
+      /* Align the text to be centered */
+      text-align: center;
+      /*
+       * Utilize line-height to ensure that the text starts in the center
+       * Comment out line-height and see what happens!
+       */
+      line-height: 250px;
+
+    }
+    /* Only add a margin to the first box item */
+    .box:first-child {
+      margin-right: 10px;
+      /* Let's have it go all the way right */
+      float: right;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="main">
+      <div class="box">
+        Box #1
+      </div>
+      <div class="box">
+        Box #2
+      </div>
+    </div>
+  </div>
+</body>
+</html>

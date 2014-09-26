@@ -7,10 +7,10 @@ YOU CAN DO IT.
 ## Structuring your HTML
 - [x] Basic Layout (Part 1 & Part 2)
 
-## CSS Examples
-- [ ] Displays
-- [ ] Padding vs Margin
-- [ ] Floats & Alignment
+## CSS Fundamentals Examples
+- [x] Displays
+- [x] Padding vs Margin
+- [x] Floats & Alignment
 - [ ] Containing data in a scrollable box
 - [ ] Positioning Elements
 
@@ -18,8 +18,8 @@ YOU CAN DO IT.
 - [ ] Spinning Animation
 - [x] Post Tags
 - [x] Off Canvas Menu
-- [ ] Grid System (Bootstrap Specific)
-- [ ] Overriding Frameworks
+- [ ] Using a Grid System (Bootstrap Specific)
+- [ ] Overriding Framework Specific CSS
 
 ## CSS Preprocessors (LESS, SASS, Styl, etc.)
 

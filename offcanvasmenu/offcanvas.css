@@ -8,7 +8,7 @@ body {
   -ms-transition: 300ms ease-in;
   transition: 300ms ease-in;
   display: inline-block;
-  height: 600px;
+  height: 1000px;
   width: 100%;
 }
 #site-wrapper.show-nav {
