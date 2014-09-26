@@ -20,7 +20,7 @@ Note: Most sections include a ```README.md``` that gives a little more explanati
 - [x] Spinning Animation
 - [x] Post Tags
 - [x] Off Canvas Menu
-- [ ] Using a Grid System (Bootstrap Specific)
+- [x] Using a Grid System (Bootstrap Specific)
 - [ ] Overriding Framework Specific CSS
 
 ## CSS Preprocessors (LESS, SASS, Styl, etc.)
