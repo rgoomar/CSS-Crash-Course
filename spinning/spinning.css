@@ -1,0 +1,47 @@
+/* Setup the animation */
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(359deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(359deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(359deg);}
+}
+
+div {
+    margin: 20px auto 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    /* Uncomment the two lines below and comment the
+     * other border-bottom and border-left to see what it is doing
+     */
+    /*border-bottom: 8px solid #ECF0F1;
+    border-left: 8px solid #ECF0F1;*/
+    border-bottom: 8px solid #fff;
+    border-left: 8px solid #fff;
+    border-right: 6px solid #9B59B6;
+    border-top: 4px solid #ba7ed3;
+    /* Setup the spinning and instantiate the animation */
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 800ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 800ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 800ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}

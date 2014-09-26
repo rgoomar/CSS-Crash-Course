@@ -17,7 +17,7 @@ Note: Most sections include a ```README.md``` that gives a little more explanati
 - [x] Positioning Elements
 
 ## Advanced CSS Examples
-- [ ] Spinning Animation
+- [x] Spinning Animation
 - [x] Post Tags
 - [x] Off Canvas Menu
 - [ ] Using a Grid System (Bootstrap Specific)
