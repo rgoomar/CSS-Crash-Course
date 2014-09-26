@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Grid System</title>
+    <link rel="stylesheet" href="../includes/bootstrap.min.css">
+    <style>
+    .nav {
+      height: 60px;
+      text-align: center;
+      background: #34495E;
+      font-size: 24px;
+      color: #fff;
+      line-height: 60px;
+    }
+    .sidebar, .main {
+      min-height: 500px;
+    }
+    .sidebar {
+      padding: 10px;
+      background: #95A5A6;
+    }
+    .main {
+      padding: 15px;
+      background: #ECF0F1;
+    }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <!-- always have the navbar be full width of the container -->
+      <div class="col-xs-12 nav">
+        Navbar
+      </div>
+    </div>
+    <div class="row">
+      <!-- Hide the sidebar on extra small devices (mobile) -->
+      <!-- Otherwise have it be 4 / 12 columns wide -->
+      <div class="hidden-xs col-sm-4 sidebar">
+        Sidebar
+      </div>
+      <!-- Main content is 8 / 12 columns wide -->
+      <!-- Unless on mobile, then it is the full width 12/12 -->
+      <div class="col-xs-12 col-sm-8 main">
+        Main Content
+      </div>
+    </div>
+  </div>
+  <script src="../includes/jquery-2.1.1.min.js"></script>
+  <script src="../includes/bootstrap.min.js"></script>
+</body>
+</html>
