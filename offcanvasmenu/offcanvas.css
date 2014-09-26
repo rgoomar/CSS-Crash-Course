@@ -1,11 +1,15 @@
+body {
+  margin: 0;
+}
 #site-wrapper {
   -webkit-transition: 300ms ease-in;
   -moz-transition: 300ms ease-in;
   -o-transition: 300ms ease-in;
   -ms-transition: 300ms ease-in;
   transition: 300ms ease-in;
-  display: block;
+  display: inline-block;
   height: 600px;
+  width: 100%;
 }
 #site-wrapper.show-nav {
   -webkit-transform: translate(-250px, 0);
@@ -20,10 +24,13 @@
   transform: translate3d(-250px, 0, 0);
 }
 #site-menu {
+  display: inline-block;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   width: 250px;
   min-height: 100%;
+  margin: 0;
+  padding: 0;
   position: fixed;
   overflow: auto;
   color: #f2f2f2;
@@ -33,6 +40,7 @@
 #site-menu h2 {
   font-weight: 300;
   height: 10px;
+  text-align: center;
 }
 #site-menu h2:hover {
   cursor: pointer;
@@ -60,6 +68,9 @@
   font-size: 20px;
   text-align: center;
   padding-right: 25px;
+}
+#site-menu ul li a:hover {
+  background: #6d6d6d;
 }
 #site-menu ul li a.active {
   font-weight: bold;
