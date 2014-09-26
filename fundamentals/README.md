@@ -18,3 +18,8 @@ I encourage you to experiment and try to align your elements in whichever way yo
 
 You will notice that ```Box #1``` is now on the right even though it is declared before ```Box #2```. Floats ignore the direct order and go immediately to the far left or right
 of the parent element depending on which float you used.
+
+## Pseudo Selectors (See the CSS in alignment.html)
+The ```.box:first-child``` pseudo class is saying the first instance of the ```box``` class. This is a little confusing because you would think that it would mean
+that the parent element should have the ```:first-child``` pseudo class, but CSS is weird.  
+See [this link](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) for more information.
