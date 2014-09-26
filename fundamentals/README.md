@@ -32,3 +32,7 @@ which they can then scroll through to view the rest of the messages.
 See [MDN - Overflow](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow)
 
 ## Positioning Elements
+Look at the html file and the CSS within there. There are a lot of comments that can help you determine how those positioning values work.
+
+I would say the most important thing to take out of it is how ```relative``` and ```absolute``` positioning work with eachother.   
+It can help you create drawings and more intricate designs.  

@@ -14,7 +14,7 @@ Note: Most sections include a ```README.md``` that gives a little more explanati
 - [x] Padding vs Margin
 - [x] Floats & Alignment
 - [x] Containing data in a scrollable box
-- [ ] Positioning Elements
+- [x] Positioning Elements
 
 ## Advanced CSS Examples
 - [ ] Spinning Animation
