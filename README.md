@@ -62,11 +62,11 @@ and can override similar styles from before.
 And this is the file that is compiled to CSS in the end.
 
 #### With Gulp
-
+Coming Soon!
 
 #### With Meteor
 Add in the LESS package
-```meteor add less```
+```meteor add less``` and use the same structure as listed above by importing all less files into a master less file.
 
 ## Using Design Frameworks
 You should follow the [DRY](http://en.wikipedia.org/wiki/Don't_repeat_yourself) principles.
