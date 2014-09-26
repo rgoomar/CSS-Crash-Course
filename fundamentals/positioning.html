@@ -7,7 +7,7 @@
       border: none;
     }
     .container {
-      height: 600px;
+      height: 1200px;
       background: #333;
       padding: 10px;
     }
@@ -17,6 +17,7 @@
        * Setting a relative position is important
        * It is used for what the absolute position
        * top, left, right, and bottom values are going off of
+       * Absolute position looks for it's closest relatively positioned parent to be based off
        */
       position: relative;
       top: 50px;
@@ -26,6 +27,7 @@
       width: 150px;
       background: #27AE60;
     }
+    /* Position these elements based on the parent element (.main-block) */
     .top-part-left {
       position: absolute;
       display: block;
@@ -33,6 +35,7 @@
       left: 10px;
       height: 40px;
       width: 40px;
+      /* Change the background to any color besides the given and you can see how it works! */
       background: #27AE60;;
     }
     .top-part-right {
@@ -42,12 +45,28 @@
       right: 10px;
       height: 40px;
       width: 40px;
+      /* Change the background to any color besides the given and you can see how it works! */
       background: #27AE60;;
     }
     /* End Lego block */
+    /* Start Fixed bottom bar */
+    .bottom-bar {
+      display: block;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      height: 60px;
+      width: 100%;
+      background: #3498DB;
+      text-align: center;
+      font-size: 18px;
+      line-height: 60px;
+    }
+    /* END Fixed bottom bar */
   </style>
 </head>
 <body>
+  <div class="bottom-bar">This stays at the bottom</div>
   <div class="container">
     <div class="main-block">
       <div class="top-part-left"></div>
