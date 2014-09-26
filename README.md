@@ -4,6 +4,8 @@ Yeah... look through stuff... try it out... make it pretty.
 
 YOU CAN DO IT.
 
+Note: Most sections include a ```README.md``` that gives a little more explanation on the desired file.
+
 ## Structuring your HTML
 - [x] Basic Layout (Part 1 & Part 2)
 
