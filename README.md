@@ -21,7 +21,7 @@ Note: Most sections include a ```README.md``` that gives a little more explanati
 - [x] Post Tags
 - [x] Off Canvas Menu
 - [x] Using a Grid System (Bootstrap Specific)
-- [ ] Overriding Framework Specific CSS
+- [x] Overriding Framework Specific CSS
 
 ## CSS Preprocessors (LESS, SASS, Styl, etc.)
 
