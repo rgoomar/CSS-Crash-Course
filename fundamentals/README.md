@@ -12,6 +12,8 @@ Margin is typically used to add in a gap between different elements.
 
 Go through the files and change some of the ```padding``` values to ```margin``` and watch what happens.
 
+Also, open up your browser debugger and see how the padding or margin changes the element.
+
 ## Alignment
 There are many different ways to do alignments. You can add in ```float```, ```text-align```, and many more. But, this example focuses on those two for the time being.  
 I encourage you to experiment and try to align your elements in whichever way you like.
@@ -23,3 +25,10 @@ of the parent element depending on which float you used.
 The ```.box:first-child``` pseudo class is saying the first instance of the ```box``` class. This is a little confusing because you would think that it would mean
 that the parent element should have the ```:first-child``` pseudo class, but CSS is weird.  
 See [this link](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) for more information.
+
+## Scrollable
+There are many times (like a chat room) that you would want to setup a fixed space that the user sees,
+which they can then scroll through to view the rest of the messages.  
+See [MDN - Overflow](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow)
+
+## Positioning Elements

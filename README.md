@@ -13,7 +13,7 @@ Note: Most sections include a ```README.md``` that gives a little more explanati
 - [x] Displays
 - [x] Padding vs Margin
 - [x] Floats & Alignment
-- [ ] Containing data in a scrollable box
+- [x] Containing data in a scrollable box
 - [ ] Positioning Elements
 
 ## Advanced CSS Examples

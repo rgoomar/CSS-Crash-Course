@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Positioning</title>
+  <style>
+    body {
+      border: none;
+    }
+    .container {
+      height: 600px;
+      background: #333;
+      padding: 10px;
+    }
+    /* Start Lego Block */
+    .main-block {
+      /*
+       * Setting a relative position is important
+       * It is used for what the absolute position
+       * top, left, right, and bottom values are going off of
+       */
+      position: relative;
+      top: 50px;
+      margin: auto;
+      display: block;
+      height: 150px;
+      width: 150px;
+      background: #27AE60;
+    }
+    .top-part-left {
+      position: absolute;
+      display: block;
+      top: -20px;
+      left: 10px;
+      height: 40px;
+      width: 40px;
+      background: #27AE60;;
+    }
+    .top-part-right {
+      position: absolute;
+      display: block;
+      top: -20px;
+      right: 10px;
+      height: 40px;
+      width: 40px;
+      background: #27AE60;;
+    }
+    /* End Lego block */
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="main-block">
+      <div class="top-part-left"></div>
+      <div class="top-part-right"></div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scrollable</title>
+  <style>
+    body {
+      border: none;
+    }
+    .container {
+      height: 600px;
+      background: #333;
+      padding: 10px;
+    }
+    .main {
+      padding: 5px;
+    }
+    .chatbox {
+      display: block;
+      background: #fff;
+      height: 400px;
+      width: 100%;
+      color: #fff;
+      box-sizing: border-box;
+      /* Setting the overflow ONLY in the y position so it scrolls vertically */
+      overflow-y: auto;
+    }
+    .message {
+      display: block;
+      background: #95A5A6;
+      box-sizing: border-box;
+      width: 98%;
+      height: 100px;
+      padding: 10px;
+      /* Center the boxes with a top and bottom margin of 8px */
+      margin: 8px auto;
+    }
+    h3 {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="main">
+      <div class="chatbox">
+        <div class="message">Test Message</div>
+        <div class="message">Test Message</div>
+        <div class="message">Test Message</div>
+        <div class="message">Test Message</div>
+        <div class="message">Test Message</div>
+      </div>
+      <h3>Try scrolling within the box!</h3>
+    </div>
+  </div>
+</body>
+</html>
