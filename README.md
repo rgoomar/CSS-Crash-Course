@@ -77,8 +77,8 @@ css that can be repeated and improved project after project.
 There are three primary CSS design frameworks:  
 [Bootstrap](http://getbootstrap.com) - Most Popular  
 [Foundation](http://foundation.zurb.com)  
-[Semantic-UI](http://semantic-ui.com) - Newer, but very nice
-Other:
+[Semantic-UI](http://semantic-ui.com) - Newer, but very nice  
+Other:  
 [Picnic-CSS](http://picnicss.com/) - New and lightweight
 
 ## Useful Resources
