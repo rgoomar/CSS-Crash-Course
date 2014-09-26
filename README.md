@@ -75,9 +75,11 @@ nicer pieces of your website and what make it unique. Avoid spending time on the
 css that can be repeated and improved project after project.
 
 There are three primary CSS design frameworks:  
-[Bootstrap](getbootstrap.com) - Most Popular  
-[Foundation](foundation.zurb.com)  
-[Semantic-UI](semantic-ui.com) - Newer, but very nice  
+[Bootstrap](http://getbootstrap.com) - Most Popular  
+[Foundation](http://foundation.zurb.com)  
+[Semantic-UI](http://semantic-ui.com) - Newer, but very nice
+Other:
+[Picnic-CSS](http://picnicss.com/) - New and lightweight
 
 ## Useful Resources
 [Mozilla Developer Network](https://developer.mozilla.org/en-US/Learn/CSS)  
