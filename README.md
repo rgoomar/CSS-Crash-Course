@@ -42,7 +42,7 @@ If you want to see what I mean by that, I encourage you to go through these:
 [LESS Features](http://lesscss.org/features/)  
 [SASS Guide](http://sass-lang.com/guide)
 
-### [LESS](lesscss.org) Workflow
+### [LESS](http://lesscss.org) Workflow
 #### Important Note for ALL listed workflows
 It is good to have one centralized LESS file that has all of the other files imported
 into it. All other files should be named ```*.import.less```.
